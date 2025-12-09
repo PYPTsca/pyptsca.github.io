@@ -1,0 +1,2174 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../23/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>24y - pyptsca.github.io</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#20241a" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="pyptsca.github.io" class="md-header__button md-logo" aria-label="pyptsca.github.io" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            pyptsca.github.io
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              24y
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/PYPTsca/pyptsca.github.io/" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pyptsca.github.io
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="pyptsca.github.io" class="md-nav__button md-logo" aria-label="pyptsca.github.io" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    pyptsca.github.io
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/PYPTsca/pyptsca.github.io/" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pyptsca.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    主页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../C%2B%2B%20Developing%20enviornment%20use%20information/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    C++ 开发环境使用须知
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    计算机导论试卷答案
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    计算机导论试卷答案
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../19/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    19y
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../21/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    21y
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../22/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    22y
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../23/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    23y
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    24y
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    24y
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#120" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        一、单项选择题（每小题1分，共20分）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#110" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、判断题（每小题1分，共10分）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#220" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、填空题（每空2分，共20分）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#315" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、计算题（每小题3分，共15分）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="四、计算题（每小题3分，共15分）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-68" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 求十进制数（-6）的8位补码
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 求十进制数（-6）的8位补码">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题步骤：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11111010" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        答案：11111010
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-001101112" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 无符号二进制数(00110111)₂转换成八进制
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 无符号二进制数(00110111)₂转换成八进制">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题步骤：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#157157o" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        答案：157（或157o）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-1624" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 十进制数16.2转换成二进制（保留4位小数）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 十进制数16.2转换成二进制（保留4位小数）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题步骤：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#100000011" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        答案：10000.0011
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-325" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 计算表达式3%2//5的值
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 计算表达式3%2//5的值">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题步骤：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        答案：0
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-56-and-123-or-89" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 计算表达式5&gt;6 and 12&lt;3 or 8&lt;9的值
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 计算表达式5&gt;6 and 12&lt;3 or 8&lt;9的值">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题步骤：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#true" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        答案：True
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#525" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、简答题（每小题5分，共25分）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、简答题（每小题5分，共25分）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 进程的定义、组成及各部分作用
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 进程的定义、组成及各部分作用">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （1）进程定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （2）进程的组成及作用
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-nn1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 冯·诺依曼体系结构计算机运行程序的过程（以n=n+1为例）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 冯·诺依曼体系结构计算机运行程序的过程（以n=n+1为例）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        汇编语言示例（简化）：
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 递归函数及编程基本步骤
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 递归函数及编程基本步骤">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （1）递归函数定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （2）编程基本步骤
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-tcpip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. TCP/IP协议分层及各层功能（四层模型）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 中断的类型及举例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 中断的类型及举例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （1）硬件中断（外部中断）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （2）软件中断（内部中断/异常）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#510" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六、算法题（每小题5分，共10分）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六、算法题（每小题5分，共10分）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-nknk1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 递归函数求解n^k（n和k为大于1的整数）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 递归函数求解n^k（n和k为大于1的整数）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题思路：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        完整代码：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例运行：
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 分治法查找无序整数列表中的最大值
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 分治法查找无序整数列表中的最大值">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题思路：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        完整代码：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例运行：
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#120" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        一、单项选择题（每小题1分，共20分）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#110" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、判断题（每小题1分，共10分）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#220" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、填空题（每空2分，共20分）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#315" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、计算题（每小题3分，共15分）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="四、计算题（每小题3分，共15分）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-68" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 求十进制数（-6）的8位补码
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 求十进制数（-6）的8位补码">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题步骤：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11111010" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        答案：11111010
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-001101112" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 无符号二进制数(00110111)₂转换成八进制
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 无符号二进制数(00110111)₂转换成八进制">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题步骤：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#157157o" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        答案：157（或157o）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-1624" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 十进制数16.2转换成二进制（保留4位小数）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 十进制数16.2转换成二进制（保留4位小数）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题步骤：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#100000011" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        答案：10000.0011
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-325" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 计算表达式3%2//5的值
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 计算表达式3%2//5的值">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题步骤：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        答案：0
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-56-and-123-or-89" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 计算表达式5&gt;6 and 12&lt;3 or 8&lt;9的值
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 计算表达式5&gt;6 and 12&lt;3 or 8&lt;9的值">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题步骤：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#true" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        答案：True
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#525" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、简答题（每小题5分，共25分）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、简答题（每小题5分，共25分）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 进程的定义、组成及各部分作用
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 进程的定义、组成及各部分作用">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （1）进程定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （2）进程的组成及作用
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-nn1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 冯·诺依曼体系结构计算机运行程序的过程（以n=n+1为例）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 冯·诺依曼体系结构计算机运行程序的过程（以n=n+1为例）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        汇编语言示例（简化）：
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 递归函数及编程基本步骤
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 递归函数及编程基本步骤">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （1）递归函数定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （2）编程基本步骤
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-tcpip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. TCP/IP协议分层及各层功能（四层模型）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 中断的类型及举例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 中断的类型及举例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （1）硬件中断（外部中断）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        （2）软件中断（内部中断/异常）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#510" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六、算法题（每小题5分，共10分）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六、算法题（每小题5分，共10分）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-nknk1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 递归函数求解n^k（n和k为大于1的整数）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 递归函数求解n^k（n和k为大于1的整数）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题思路：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        完整代码：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例运行：
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 分治法查找无序整数列表中的最大值
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 分治法查找无序整数列表中的最大值">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解题思路：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        完整代码：
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例运行：
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="20241a">广东金融学院2024学年第1学期《计算机导论》A卷答案及解析</h1>
+<h2 id="120">一、单项选择题（每小题1分，共20分）</h2>
+<table>
+<thead>
+<tr>
+<th>题号</th>
+<th>答案</th>
+<th>核心解析</th>
+<th>相关知识点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>D</td>
+<td>计算机系统三层结构明确为：硬件层（底层物理基础）→操作系统层（中间管理层）→应用软件层（上层功能层），其余选项无对应层级定义</td>
+<td>计算机系统层次结构</td>
+</tr>
+<tr>
+<td>2</td>
+<td>D</td>
+<td>鼠标是标准输入设备（向计算机输入操作指令）；硬盘是存储设备，题目其余选项空缺，仅D符合输入设备定义</td>
+<td>计算机输入/存储设备区分</td>
+</tr>
+<tr>
+<td>3</td>
+<td>A</td>
+<td>存储速度排序：寄存器（CPU内置，最快）→高速缓存（cache）→主存（RAM）→闪存（外存，最慢）</td>
+<td>计算机存储层次与速度</td>
+</tr>
+<tr>
+<td>4</td>
+<td>D</td>
+<td>高级语言包括Python、C++、Java（接近人类自然语言），机器语言是二进制指令，属于低级语言</td>
+<td>程序语言分类（低级vs高级）</td>
+</tr>
+<tr>
+<td>5</td>
+<td>B</td>
+<td>操作系统是系统软件核心，负责管理全部硬件资源（CPU、内存等）和软件资源（程序、数据等），并非仅管理单一资源</td>
+<td>操作系统核心功能</td>
+</tr>
+<tr>
+<td>6</td>
+<td>B</td>
+<td>有符号整数符号位规则：0表示正数，1表示负数；-1是负数，故最高位（符号位）为1</td>
+<td>有符号数表示规则</td>
+</tr>
+<tr>
+<td>7</td>
+<td>B</td>
+<td>栈的核心访问规则是“后进先出（LIFO）”，如同叠盘子；先进先出是队列规则，随机/倒序访问非栈特性</td>
+<td>数据结构：栈的访问规则</td>
+</tr>
+<tr>
+<td>8</td>
+<td>B</td>
+<td>UDP（用户数据报协议）是TCP/IP模型中传输层的核心协议，与TCP并列，负责端到端数据传输</td>
+<td>TCP/IP协议分层与核心协议</td>
+</tr>
+<tr>
+<td>9</td>
+<td>C</td>
+<td>IP地址（IPv4）为4段点分十进制，每段0-255：A多1段（5段），B、D少1段（3段），仅C符合格式</td>
+<td>IP地址格式规范</td>
+</tr>
+<tr>
+<td>10</td>
+<td>C</td>
+<td>函数可递归调用自身（如求阶乘的递归函数）；A（支持嵌套调用）、B（可无返回值，默认None）、D（先定义后调用）均正确</td>
+<td>Python函数特性（递归）</td>
+</tr>
+<tr>
+<td>11</td>
+<td>B</td>
+<td>栈“后进先出”：1、2、3依次入栈后，可能出栈顺序：1→2→3（A）、3→2→1（D）、2→1→3（C）；B选项3出栈后，栈内剩1、2，只能2先出，无法1先出</td>
+<td>栈的存取规则应用</td>
+</tr>
+<tr>
+<td>12</td>
+<td>C</td>
+<td>读取文件需调用操作系统接口（系统调用），属于软件中断（由程序主动触发）；硬件中断由硬件触发，异常处理请求针对逻辑错误（如除0）</td>
+<td>中断与系统调用的区分</td>
+</tr>
+<tr>
+<td>13</td>
+<td>A</td>
+<td>域名顶级域含义：.com（商业机构）、.gov（政府）、.edu（教育）、.org（社会组织）</td>
+<td>域名系统（DNS）顶级域定义</td>
+</tr>
+<tr>
+<td>14</td>
+<td>D</td>
+<td>计算机四代核心标志：第四代以大规模/超大规模集成电路为核心</td>
+<td>计算机发展历程</td>
+</tr>
+<tr>
+<td>15</td>
+<td>C</td>
+<td>计算机底层（内存、CPU缓存等）所有数据均以二进制（0和1）形式存储，其他进制仅为人类可读表示</td>
+<td>计算机数据存储本质</td>
+</tr>
+<tr>
+<td>16</td>
+<td>B</td>
+<td>冯·诺依曼体系结构（存储程序+程序控制）是现代计算机的基础，被誉为“现代计算机之父”</td>
+<td>现代计算机核心体系结构</td>
+</tr>
+<tr>
+<td>17</td>
+<td>D</td>
+<td>PC（Program Counter）是程序计数器，功能是指向下一步要执行的指令地址；通用寄存器存储临时数据，指令寄存器存储当前指令</td>
+<td>CPU核心寄存器功能</td>
+</tr>
+<tr>
+<td>18</td>
+<td>D</td>
+<td>衡量算法计算效率的核心指标是时间复杂度（执行所需时间资源），空间复杂度衡量内存占用</td>
+<td>算法复杂度的核心维度</td>
+</tr>
+<tr>
+<td>19</td>
+<td>B</td>
+<td>continue语句的作用是“终止本次循环，直接进入下一次循环”；终止循环用break，终止函数用return</td>
+<td>Python关键字（continue）功能</td>
+</tr>
+<tr>
+<td>20</td>
+<td>C</td>
+<td>目前互联网广泛采用的核心协议是TCP/IP协议簇；OSI是理论模型，电路交换是传统通信方式，以太网是链路层协议</td>
+<td>互联网核心协议</td>
+</tr>
+</tbody>
+</table>
+<h2 id="110">二、判断题（每小题1分，共10分）</h2>
+<table>
+<thead>
+<tr>
+<th>题号</th>
+<th>答案</th>
+<th>解析</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>×</td>
+<td>8位有符号二进制数的最大正整数是2⁷-1=127；2⁸-1=255是8位无符号二进制数的最大取值</td>
+</tr>
+<tr>
+<td>2</td>
+<td>×</td>
+<td>冰箱中的计算机是为特定控制任务（如温度调节）设计的<strong>专用计算机</strong>，并非通用计算机（可处理多种任务）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>√</td>
+<td>有符号整数正负数相加本质是“绝对值相减”，结果绝对值不会超过任一操作数，不会超出有符号数取值范围（如8位补码-128~127），故无溢出</td>
+</tr>
+<tr>
+<td>4</td>
+<td>√</td>
+<td>CPU的核心组成是<strong>运算器（又称计算器，执行算术/逻辑运算）</strong> 和<strong>控制器（协调各部件工作）</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td>×</td>
+<td>CPU内部处理和存储数据的唯一形式是二进制，八进制、十六进制仅用于人类编写程序时的简化表示</td>
+</tr>
+<tr>
+<td>6</td>
+<td>√</td>
+<td>Python列表是动态类型容器，支持存储不同类型元素（如<code>[1, "a", True]</code>）</td>
+</tr>
+<tr>
+<td>7</td>
+<td>√</td>
+<td>FTP（文件传输协议）属于TCP/IP模型的应用层，负责文件上传与下载</td>
+</tr>
+<tr>
+<td>8</td>
+<td>×</td>
+<td>计算机中有符号数<strong>通常采用补码</strong>（简化减法、统一0的表示），但并非“都采用”，早期曾使用原码、反码</td>
+</tr>
+<tr>
+<td>9</td>
+<td>√</td>
+<td>除0异常是程序运行时的逻辑错误，属于<strong>软件中断</strong>（由程序触发，需操作系统处理）</td>
+</tr>
+<tr>
+<td>10</td>
+<td>×</td>
+<td>用户态下的应用程序不能直接访问硬盘等硬件，需通过系统调用（请求操作系统服务）间接读取文件</td>
+</tr>
+</tbody>
+</table>
+<h2 id="220">三、填空题（每空2分，共20分）</h2>
+<table>
+<thead>
+<tr>
+<th>题号</th>
+<th>答案</th>
+<th>解析</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>操作系统</td>
+<td>操作系统是软件系统的核心，直接管理硬件资源、调度程序执行，决定计算机运算效率和软件运行效率</td>
+</tr>
+<tr>
+<td>2</td>
+<td>操作系统</td>
+<td>操作系统是连接计算机硬件（底层）和应用软件（上层）的中间桥梁，提供统一的资源访问接口</td>
+</tr>
+<tr>
+<td>3</td>
+<td>a（或a+）</td>
+<td>Python中open()函数的追加模式：<code>a</code>（仅追加写）、<code>a+</code>（读写+追加），均在文件尾部添加数据</td>
+</tr>
+<tr>
+<td>4</td>
+<td>True</td>
+<td>逻辑运算规则：非0值视为True；not True=False，False or 1（True），最终结果为True</td>
+</tr>
+<tr>
+<td>5</td>
+<td>IEEE 754标准</td>
+<td>现代计算机CPU处理浮点数均遵循IEEE 754标准，规定浮点数的存储格式、运算规则</td>
+</tr>
+<tr>
+<td>6</td>
+<td>IP地址（或IPv4/IPv6地址）</td>
+<td>IP地址是计算机在网络中的唯一标识，用于跨网络数据传输时的目标定位</td>
+</tr>
+<tr>
+<td>7</td>
+<td>中断</td>
+<td>现代操作系统采用“中断方式”管理硬件（硬件主动请求CPU处理），效率远高于早期“轮询方式”</td>
+</tr>
+<tr>
+<td>8</td>
+<td>溢出</td>
+<td>无符号整数加法中，和的二进制位数超出CPU字长（如8位CPU计算255+2=257），称为溢出</td>
+</tr>
+<tr>
+<td>9</td>
+<td>HTML（超文本标记语言）</td>
+<td>HTML是构建静态网页结构的核心语言，配合CSS实现样式美化，仅用于静态内容展示</td>
+</tr>
+</tbody>
+</table>
+<h2 id="315">四、计算题（每小题3分，共15分）</h2>
+<h3 id="1-68">1. 求十进制数（-6）的8位补码</h3>
+<h4 id="_1">解题步骤：</h4>
+<ol>
+<li>
+<p><strong>求绝对值的原码</strong>：6的二进制为<code>110</code>，8位原码（正数符号位为0）为<code>00000110</code>。</p>
+</li>
+<li>
+<p><strong>求负数的原码</strong>：符号位改为1（表示负数），其余位不变，得<code>10000110</code>。</p>
+</li>
+<li>
+<p><strong>求反码</strong>：原码除符号位外，其余位按位取反，得<code>11111001</code>。</p>
+</li>
+<li>
+<p><strong>求补码</strong>：反码加1，得<code>11111010</code>。</p>
+</li>
+</ol>
+<h4 id="11111010">答案：<code>11111010</code></h4>
+<h3 id="2-001101112">2. 无符号二进制数(00110111)₂转换成八进制</h3>
+<h4 id="_2">解题步骤：</h4>
+<ol>
+<li>
+<p><strong>二进制分组</strong>：八进制基数为8，从右往左每3位为一组（不足3位左侧补0），原二进制分组为<code>001 101 111</code>。</p>
+</li>
+<li>
+<p><strong>分组转八进制</strong>：每组3位二进制对应1位八进制：001=1，101=5，111=7。</p>
+</li>
+<li>
+<p><strong>组合结果</strong>：将各组结果拼接，得<code>157</code>。</p>
+</li>
+</ol>
+<h4 id="157157o">答案：<code>157</code>（或<code>157o</code>）</h4>
+<h3 id="3-1624">3. 十进制数16.2转换成二进制（保留4位小数）</h3>
+<h4 id="_3">解题步骤：</h4>
+<ol>
+<li>
+<p><strong>整数部分（16）转换</strong>：除以2取余，从下往上排列：16÷2=8余0 → 8÷2=4余0 → 4÷2=2余0 → 2÷2=1余0 → 1÷2=0余1 → 整数部分<code>10000</code>。</p>
+</li>
+<li>
+<p><strong>小数部分（0.2）转换</strong>：乘2取整，保留4位小数：0.2×2=0.4（取整0）→ 0.4×2=0.8（取整0）→ 0.8×2=1.6（取整1）→ 0.6×2=1.2（取整1）→ 小数部分<code>0011</code>。</p>
+</li>
+<li>
+<p><strong>组合结果</strong>：整数部分+小数部分，得<code>10000.0011</code>。</p>
+</li>
+</ol>
+<h4 id="100000011">答案：<code>10000.0011</code></h4>
+<h3 id="4-325">4. 计算表达式<code>3%2//5</code>的值</h3>
+<h4 id="_4">解题步骤：</h4>
+<ol>
+<li>
+<p><strong>运算优先级</strong>：<code>%</code>（取余）和<code>//</code>（整除）同级，从左到右计算。</p>
+</li>
+<li>
+<p><strong>第一步取余</strong>：3%2=1（3除以2的余数为1）。</p>
+</li>
+<li>
+<p><strong>第二步整除</strong>：1//5=0（1除以5的商整数部分为0）。</p>
+</li>
+</ol>
+<h4 id="0">答案：<code>0</code></h4>
+<h3 id="5-56-and-123-or-89">5. 计算表达式<code>5&gt;6 and 12&lt;3 or 8&lt;9</code>的值</h3>
+<h4 id="_5">解题步骤：</h4>
+<ol>
+<li>
+<p><strong>运算优先级</strong>：<code>&lt;</code>&gt;<code>&gt;</code>高于<code>and</code>和<code>or</code>，先计算比较表达式：5&gt;6=False，12&lt;3=False，8&lt;9=True。</p>
+</li>
+<li>
+<p><strong>计算逻辑运算</strong>：<code>and</code>优先级高于<code>or</code>，先算False and False=False，再算False or True=True。</p>
+</li>
+</ol>
+<h4 id="true">答案：<code>True</code></h4>
+<h2 id="525">五、简答题（每小题5分，共25分）</h2>
+<h3 id="1">1. 进程的定义、组成及各部分作用</h3>
+<h4 id="1_1">（1）进程定义</h4>
+<p>进程是操作系统进行<strong>资源分配和调度的基本单位</strong>，是正在运行的程序的实例（程序加载到内存后开始执行的状态）。</p>
+<h4 id="2">（2）进程的组成及作用</h4>
+<ol>
+<li>
+<p><strong>程序段</strong>：存储进程执行所需的指令集合（即运行的程序代码），是进程执行的逻辑基础。</p>
+</li>
+<li>
+<p><strong>数据段</strong>：存储进程执行时操作的原始数据、中间结果和最终结果（如变量、数组等）。</p>
+</li>
+<li>
+<p><strong>进程控制块（PCB）</strong>：核心管理部分，存储进程的状态（运行/就绪/阻塞）、PID（进程ID）、CPU寄存器值、内存地址等信息，操作系统通过PCB控制进程生命周期。</p>
+</li>
+</ol>
+<h3 id="2-nn1">2. 冯·诺依曼体系结构计算机运行程序的过程（以<code>n=n+1</code>为例）</h3>
+<p>冯·诺依曼体系的核心是“存储程序+程序控制”，运行程序分为以下步骤：</p>
+<ol>
+<li>
+<p><strong>编译阶段</strong>：高级语言代码<code>n=n+1</code>被编译器翻译成二进制机器指令，存储在硬盘可执行文件中。</p>
+</li>
+<li>
+<p><strong>加载阶段</strong>：操作系统将文件中的指令和变量<code>n</code>的数据加载到内存，为<code>n</code>分配固定内存地址（假设为<code>0x4000</code>）。</p>
+</li>
+<li>
+<p><strong>指令周期（取指-译码-执行）</strong>：</p>
+<ul>
+<li>
+<p>取指：程序计数器（PC）指向<code>n=n+1</code>的指令地址，控制器从内存读出指令存入指令寄存器（IR）。</p>
+</li>
+<li>
+<p>译码：译码器解析指令为“从<code>0x4000</code>取<code>n</code>的值→加1→存回<code>0x4000</code>”。</p>
+</li>
+<li>
+<p>执行：运算器（ALU）从内存读出<code>n</code>的值存入通用寄存器，执行加1运算，再将结果写回内存<code>0x4000</code>。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>结束</strong>：PC自动递增指向下一步指令，完成<code>n=n+1</code>的执行。</p>
+</li>
+</ol>
+<h4 id="_6">汇编语言示例（简化）：</h4>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>mov eax, [0x4000]  ; 取n的值到eax寄存器
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>add eax, 1         ; eax = eax + 1
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>mov [0x4000], eax  ; 结果存回内存，更新n
+</span></code></pre></div>
+<h3 id="3">3. 递归函数及编程基本步骤</h3>
+<h4 id="1_2">（1）递归函数定义</h4>
+<p>递归函数是<strong>在函数体内直接或间接调用自身</strong>的函数，核心思想是“将复杂问题分解为规模更小的同类子问题”，通过边界条件终止递归。</p>
+<h4 id="2_1">（2）编程基本步骤</h4>
+<ol>
+<li>
+<p><strong>确定边界条件</strong>：明确递归的终止条件（避免无限递归），如“求n^k时，k=1返回n”。</p>
+</li>
+<li>
+<p><strong>推导递归公式</strong>：建立原问题与子问题的关系，如“n^k = n × n^(k-1)”。</p>
+</li>
+<li>
+<p><strong>实现递归调用</strong>：在函数体内调用自身，传入规模更小的参数（如<code>pow(n, k-1)</code>）。</p>
+</li>
+<li>
+<p><strong>返回结果</strong>：将子问题的结果组合，返回原问题的解。</p>
+</li>
+</ol>
+<h3 id="4-tcpip">4. TCP/IP协议分层及各层功能（四层模型）</h3>
+<p>TCP/IP协议簇分为四层，从下到上依次为：</p>
+<ol>
+<li>
+<p><strong>网络接口层（链路层）</strong>：底层，负责将数据封装为帧，实现数据在物理传输介质（网线、无线信号）上的传输，处理MAC地址和链路错误。</p>
+</li>
+<li>
+<p><strong>网络层（互联层）</strong>：核心层，通过IP地址标识设备，负责跨网络路由选择（确定数据传输路径）、数据分片与重组，核心协议为IP、ICMP。</p>
+</li>
+<li>
+<p><strong>传输层</strong>：端到端通信层，提供可靠/高效传输服务：</p>
+<ul>
+<li>
+<p>TCP：面向连接、可靠传输（差错重传、流量控制），适用于文件传输、网页访问。</p>
+</li>
+<li>
+<p>UDP：无连接、高效传输，适用于视频通话、游戏。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>应用层</strong>：顶层，为应用程序提供网络服务，核心协议有HTTP（网页）、FTP（文件传输）、SMTP（邮件）、DNS（域名解析）。</p>
+</li>
+</ol>
+<h3 id="5">5. 中断的类型及举例</h3>
+<p>中断是硬件或软件向CPU发送的“处理请求”，使CPU暂停当前任务，优先处理紧急事务，分为两类：</p>
+<h4 id="1_3">（1）硬件中断（外部中断）</h4>
+<ul>
+<li>
+<p>定义：由计算机外部硬件设备触发的中断。</p>
+</li>
+<li>
+<p>举例：键盘输入中断（按键盘键）、鼠标点击中断、磁盘I/O中断（磁盘读写完成）、时钟中断（定时触发）。</p>
+</li>
+</ul>
+<h4 id="2_2">（2）软件中断（内部中断/异常）</h4>
+<ul>
+<li>
+<p>定义：由程序执行错误或主动请求触发的中断。</p>
+</li>
+<li>
+<p>举例：系统调用（如文件读写、网络通信）、除0异常、内存访问越界、断点中断（程序调试）。</p>
+</li>
+</ul>
+<h2 id="510">六、算法题（每小题5分，共10分）</h2>
+<h3 id="1-nknk1">1. 递归函数求解<code>n^k</code>（n和k为大于1的整数）</h3>
+<h4 id="_7">解题思路：</h4>
+<ul>
+<li>
+<p>边界条件：k=1时，n^1 = n（递归终止）。</p>
+</li>
+<li>
+<p>递归公式：n^k = n × n^(k-1)（将k次幂分解为k-1次幂与n的乘积）。</p>
+</li>
+</ul>
+<h4 id="_8">完整代码：</h4>
+<div class="language-Python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">power</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">k</span><span class="p">):</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    <span class="c1"># 边界条件：k=1时返回n</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    <span class="k">if</span> <span class="n">k</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>        <span class="k">return</span> <span class="n">n</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    <span class="c1"># 递归调用：n^k = n * n^(k-1)</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>    <span class="k">return</span> <span class="n">n</span> <span class="o">*</span> <span class="n">power</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">k</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="c1"># 函数外执行</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;请输入整数n（n&gt;1）：&quot;</span><span class="p">))</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="n">k</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;请输入整数k（k&gt;1）：&quot;</span><span class="p">))</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2">^</span><span class="si">{</span><span class="n">k</span><span class="si">}</span><span class="s2"> = </span><span class="si">{</span><span class="n">power</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">k</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<h4 id="_9">示例运行：</h4>
+<p>输入<code>n=3</code>、<code>k=4</code>，输出<code>3^4 = 81</code>；输入<code>n=2</code>、<code>k=5</code>，输出<code>2^5 = 32</code>。</p>
+<h3 id="2_3">2. 分治法查找无序整数列表中的最大值</h3>
+<h4 id="_10">解题思路：</h4>
+<ul>
+<li>
+<p>分治思想：将列表递归拆分为左右两半，分别查找每半的最大值，再比较两半最大值，得到整个列表的最大值。</p>
+</li>
+<li>
+<p>边界条件：列表长度为1时，最大值为唯一元素。</p>
+</li>
+</ul>
+<h4 id="_11">完整代码：</h4>
+<div class="language-Python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">find_max</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    <span class="c1"># 边界条件：列表只有1个元素，直接返回</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>        <span class="k">return</span> <span class="n">lst</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    <span class="c1"># 拆分列表为左右两半</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    <span class="n">mid</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    <span class="n">left_max</span> <span class="o">=</span> <span class="n">find_max</span><span class="p">(</span><span class="n">lst</span><span class="p">[:</span><span class="n">mid</span><span class="p">])</span>  <span class="c1"># 左半部分最大值</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>    <span class="n">right_max</span> <span class="o">=</span> <span class="n">find_max</span><span class="p">(</span><span class="n">lst</span><span class="p">[</span><span class="n">mid</span><span class="p">:])</span>  <span class="c1"># 右半部分最大值</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>    <span class="c1"># 比较两半最大值，返回更大值</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>    <span class="k">return</span> <span class="n">left_max</span> <span class="k">if</span> <span class="n">left_max</span> <span class="o">&gt;</span> <span class="n">right_max</span> <span class="k">else</span> <span class="n">right_max</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="c1"># 函数外执行</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;列表中的最大值为：</span><span class="si">{</span><span class="n">find_max</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<h4 id="_12">示例运行：</h4>
+<p>输入列表<code>[5,9,3,12,7,18,4]</code>，输出<code>18</code>；输入列表<code>[23, 45, 11, 67, 8]</code>，输出<code>67</code>。</p>
+<blockquote>
+<p>（注：文档部分内容可能由 AI 生成）</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
