@@ -3,8 +3,8 @@ theme:
   name: material
   language: zh
 
-repo_url: https://github.com/PYPTsca/pyptsca.github.io/ # 右上角点击跳转的链接
-repo_name: pyptsca.github.io # 右上角的名字
+#repo_url: https://github.com/PYPTsca/pyptsca.github.io/ # 右上角点击跳转的链接
+#repo_name: pyptsca.github.io # 右上角的名字
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -16,11 +16,12 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
- - 主页: index.md
- - C++ 开发环境使用须知: C++ Developing enviornment use information.md
- - 计算机导论试卷答案:
-    - 19y: paper/19.md
-    - 21y: paper/21.md
-    - 22y: paper/22.md
-    - 23y: paper/23.md
-    - 24y: paper/24.md
+# - 主页: index.md
+# - C++ 开发环境使用须知: C++ Developing enviornment use information.md
+  - 玩《魔法少女的魔女审判》艾玛有感: Acacia.md
+# - 计算机导论试卷答案:
+#    - 19y: paper/19.md
+#    - 21y: paper/21.md
+#    - 22y: paper/22.md
+#    - 23y: paper/23.md
+#    - 24y: paper/24.md
