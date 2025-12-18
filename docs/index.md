@@ -92,7 +92,7 @@
 <font color=#f4a2aa> &emsp;&emsp;“求求你，要活下去” </font>  
 <font color=#ea2c2e> —— ……</font>
 
-> ![1765805355890](image/Acacia/1765805355890.png) > <font color=#ea2c2e>  
+> ![1765805355890](image/Acacia/1765805355890.png)  <font color=#ea2c2e>  
 > **——我想脱罪不是我的错，我可是为了艾玛啊，我没有错吧？！**</font>
 
 她是魔女
