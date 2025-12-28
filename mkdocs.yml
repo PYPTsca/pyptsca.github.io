@@ -2,9 +2,18 @@ site_name: pyptsca.github.io
 theme:
   name: material
   language: zh
+  features:
+    - navigation.tabs       # 启用顶部导航选项卡
+    - navigation.indexes    # 允许子目录有索引页 (如 directory/index.md)
+    - toc.integrate         # 将页面内目录集成到侧边栏导航中
+    - search.suggest        # 搜索建议
+    - search.highlight      # 搜索结果高亮
+    #- content.tabs          # 在 Markdown 中使用选项卡 (如 ```tabs)
+    #- content.code.copy     # 为代码块添加复制按钮
+    #- content.action.edit   # 在页面底部显示编辑链接 (需配置 edit_uri)
 
-#repo_url: https://github.com/PYPTsca/pyptsca.github.io/ # 右上角点击跳转的链接
-#repo_name: pyptsca.github.io # 右上角的名字
+repo_url: https://github.com/PYPTsca/pyptsca.github.io/ # 右上角点击跳转的链接
+repo_name: pyptsca.github.io # 右上角的名字
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -16,9 +25,9 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
-# - 主页: index.md
+  - 主页: index.md
 # - C++ 开发环境使用须知: C++ Developing enviornment use information.md
-  - 玩《魔法少女的魔女审判》艾玛有感: Acacia.md
+# - 玩《魔法少女的魔女审判》艾玛有感: Acacia.md
 # - 计算机导论试卷答案:
 #    - 19y: paper/19.md
 #    - 21y: paper/21.md
