@@ -25,7 +25,7 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
-  - 主页: index.md
+  - 主页: 'index.md'
 # - C++ 开发环境使用须知: C++ Developing enviornment use information.md
 # - 玩《魔法少女的魔女审判》艾玛有感: Acacia.md
 # - 计算机导论试卷答案:
