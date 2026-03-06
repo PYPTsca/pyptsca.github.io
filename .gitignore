@@ -2,6 +2,7 @@
 
 # 杂项
 site/
+venv/
 
 # prettier配置文件
 .prettierrc

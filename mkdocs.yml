@@ -31,7 +31,7 @@ theme:
       accent: teal
       toggle:
         icon: material/weather-night
-        name: 切换到亮色模式
+        name: 切换到自动模式
 
 repo_url: https://github.com/PYPTsca/pyptsca.github.io/ # 右上角点击跳转的链接
 repo_name: pyptsca.github.io # 右上角的名字
@@ -59,7 +59,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
     
 plugins:
-  - search
+  - search:
 
 nav:
   - 玩《魔法少女的魔女审判》艾玛有感: 'index.md'
